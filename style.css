@@ -1,0 +1,78 @@
+html{
+}
+
+body{
+  font-family: 'Quicksand', sans-serif;
+  background: linear-gradient(to bottom right, orange, magenta);
+  margin:0;padding:0;
+
+  height: 100%;
+overflow: auto;
+-webkit-overflow-scrolling: touch;
+}
+
+button{
+  background: rgba(0, 0, 0, 0);
+  border: 2px solid white;
+  color: white;
+  font-size: 20px;
+  font-family: 'Quicksand', sans-serif;
+  width: 125px;
+  height: 40px;
+  border-radius: 20px;
+}
+
+a{
+  color: white;
+  font-size: 20px;
+  font-family: 'Quicksand', sans-serif;
+
+  height: 40px;
+  border-radius: 20px;
+}
+
+h3{
+  text-decoration: underline;
+}
+
+.main{
+  width: 86%;
+  float: right;
+  color: white;
+}
+.section{
+  padding: 1%;
+  height: 70%;
+  color: white;
+}
+#first{
+  background: rgba(0,0,0,0.2);
+}
+
+#second{
+  background: rgba(0,0,0,0.4);
+}
+
+#third{
+  background: rgba(0,0,0,0.6);
+}
+
+.top {
+background: blue;
+width:500px;
+height: 92px;
+}
+.left {
+background: rgba(0,0,0,9);
+color: white;
+float:left;
+padding-left: 1%;
+width: 13%;
+height: 100%;
+position:fixed
+}
+.right{
+float:right;
+width:350px;
+background: yellow;
+}
