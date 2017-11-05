@@ -27,7 +27,7 @@ button:hover{
   color: black;
 }
 
-ul{
+ul.sidelinks{
   list-style-type:none;
   padding-left:0;
 }
@@ -53,6 +53,67 @@ h3{
   text-decoration: underline;
 }
 
+p{
+  font-size: 36px;
+  font-weight: 100;
+}
+
+div.section h2{
+  color: white;
+  padding: 0px;
+  margin: 10px;
+}
+
+
+ul.skillbar{
+  border: 2px solid white;
+  list-style-type: none;
+   overflow: hidden;
+   float: left;
+   border-radius: 15px;
+   margin-left: 10px;
+}
+
+ul.skillbar li{
+  float: left;
+  width: 15px;
+  height: 15px;
+}
+
+li.full{
+  background-color: white;
+}
+
+li.empty{
+  border-left: 2px solid white;
+  background-color: none;
+}
+
+#skills ul{
+  float:left;
+  border: 1px dashed white;
+}
+
+#skills h2{
+  font-size: 20px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+#activities ul{
+  float:right;
+  border: 1px dashed white;
+  width: 50%;
+}
+
+#info{
+  border: 1px solid dashed;
+  border-radius: 15px;
+}
+div.leftpanel{
+  float: right;
+  width: 50%;
+}
 .main{
   width: 86%;
   float: right;
@@ -62,17 +123,64 @@ h3{
   padding: 1%;
   height: 70%;
   color: white;
+  padding-left: 20px;
 }
 #first{
   background: rgba(0,0,0,0.2);
+  height: 60%;
 }
 
-#second{
+#aboutme{
+  border: 1px dashed white;
+  float: right;
+  width: 75%;
+  margin-right: 12.5%;
+  padding-right: 5px;
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#projects{
   background: rgba(0,0,0,0.4);
 }
 
-#third{
+#projects p{
+  font-size: 20px;
+  padding-left: 20px;
+}
+#projects a{
+  font-size: 20px;
+  text-decoration: underline;
+}
+div.project{
+width: 70%;
+}
+
+div.project h2{
+  font-size: 20px;
+  padding: 0px, 0px;
+  margin: 0px, 0px;
+  height: 10px;
+}
+
+div.project p{
+  padding: 0px, 0px;
+  margin: 0px, 0px;
+}
+
+#resume{
   background: rgba(0,0,0,0.6);
+  height: 75%;
+}
+
+div.resumeitem{
+  padding-bottom: 20px;
+}
+
+div.resumeitem a{
+  font-size: inherit;
+  text-decoration: underline;
 }
 
 .top {
