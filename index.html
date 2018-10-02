@@ -1,238 +1,51 @@
- <html>
+<html>
   <head>
     <title>James Coyne</title>
-    <meta name="keywords" content="James Coyne,Wentworth Institute of Technology,WIT,Computer Science, creative coding, WIT">
-    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,100" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109270044-1"></script>
-    <script>
-     window.dataLayer = window.dataLayer || [];
-     function gtag(){dataLayer.push(arguments);}
-     gtag('js', new Date());
-
-     gtag('config', 'UA-109270044-1');
-   </script>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script>
-    $(document).ready(function(){
-      // Add smooth scrolling to all links
-      $("a").on('click', function(event) {
-
-        // Make sure this.hash has a value before overriding default behavior
-        if (this.hash !== "") {
-          // Prevent default anchor click behavior
-          event.preventDefault();
-
-          // Store hash
-          var hash = this.hash;
-
-          // Using jQuery's animate() method to add smooth page scroll
-          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-          $('html, body').animate({
-            scrollTop: $(hash).offset().top
-          }, 800, function(){
-
-            // Add hash (#) to URL when done scrolling (default click behavior)
-            window.location.hash = hash;
-          });
-        } // End if
-      });
-    });
-    </script>
-
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="p5/p5.js"></script>
   </head>
   <body>
-      <div class="left">
-        <h2>James Coyne</h2>
-            <ul class="sidelinks">
-          <li>
-            <a href="#intro">About Me</a>
-          </li>
-          <li>
-            <a href="#first">Skills</a>
-          </li>
-          <li>
-            <a href="#projects">Projects</a>
-          </li>
-          <li>
-            <a href="#resume">Resume</a>
-          </li>
 
-      </ul>
+    <div class="container">
+      <h1 class="text-center pb-5">JAMES COYNE</h1>
+      <div class="row ">
+        <div class="col center-block" >
 
-      <table>
-          <tr>
-            <td>
-              <a href="https://www.instagram.com/lo.fi.sci.fi/" class="fa fa-instagram"></a>
-            </td>
-            <td>
-              <a href="https://twitter.com/notjamescoyne" class="fa fa-twitter"></a>
-            </td>
-            <td>
-              <a href="https://github.com/JamesCoyne" class="fa fa-github"></a>
-            </td>
-            <td>
-              <a href="https://www.linkedin.com/in/james-coyne/" class="fa fa-linkedin"></a>
-            </td>
-          </tr>
-        </table>
-        <br />
-          <a href="mailto:coynej1@wit.edu"><button >Contact</button></a>
-
+        </div>
       </div>
-      <div class="main">
-
-        <div class="section" id="intro">
-          <h1> About Me</h1>
-          <p id="aboutme">
-    Hello! My name is James Coyne, and I study Computer Science, Media, and Applied Math at Wentworth Institue of Technology.
-    I enjoy working on projects that solve creative problems.
-</p>
-        </div>
-        <div class="section" id="first">
-
-                <h2>Skills</h2>
-                <div id=skills>
-                  <ul>
-                    <li>
-                      <h2>Java</h2>
-                    </li>
-
-                    <li>
-                      <h2>HTML/CSS</h2>
-                    </li>
-
-                    <li>
-                      <h2>JavaScript</h2>
-                    </li>
-                    <li>
-                      <h2>Swift</h2>
-                    </li>
-                    <li>
-                      <h2>Python</h2>
-                    </li>
-                    <li>
-                      <h2>UI/UX and graphic design</h2>
-                    </li>
-                  </ul>
-                </div>
-        </table>
-        </div>
-        <div class="section" id="projects">
-          <h2>Projects</h2>
-          <p>
-            I'm always working on something!
-            <br />
-             If you'd like to check out what I'm up to,
-            all of my projects are availible on my <a href="https://github.com/JamesCoyne">github</a>.
-            <br />
-            Below are a few projects that demonstrate the full range of my skills.
-          </p>
-          <ul>
-            <li>
-              <div class="project">
-                <h2><a href="https://github.com/JamesCoyne/brick-breaker">Brick Breaker</a> - JavaScript</h2>
-                <p>
-                  A fairly simple brick breaker game I wrote using pure JavaScript to test my knowlege of the language.
-                </p>
-              </div>
+      <div class="row ">
+        <div class="col pl-0">
+          <ul class="list-inline mb-0">
+            <!-- <li class="list-inline-item">
+              <a >ABOUT</a>
             </li>
-            <li>
-              <div class="project">
-                <h2><a href="https://github.com/JamesCoyne/DnD-Dice">DND Dice</a> - Swift</h2>
-                <p>
-                  A dungeons and dragons and dragon dice rolling iOS app made with swift - features 3D dice animations.
-                </p>
-              </div>
+            <li class="list-inline-item">
+              <a>WORK</a>
+            </li> -->
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col center-block pl-0" id="jumbo-canvas">
+            <script src="index.js"> </script>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col pr-0">
+          <ul class="list-inline mb-0 float-right">
+            <li class="list-inline-item">
+              <a href="https://github.com/JamesCoyne">GITHUB</a>
             </li>
-            <li>
-              <div class="project">
-                <h2><a href="https://github.com/JamesCoyne/textart">Webcam ASCII text art</a> - Java/Processing</h2>
-                <p>
-                  A interactive art installation which converted webcam input into ASCII text.
-                </p>
-              </div>
+            <li class="list-inline-item">
+              <a href="https://www.instagram.com/lo.fi.sci.fi/">INSTAGRAM</a>
+            </li>
+            <li class="list-inline-item">
+              <a href="mailto:coynej1@wit.edu">EMAIL</a>
             </li>
           </ul>
         </div>
-
-        <div class="section" id="resume">
-          <h2>Resume</h2>
-
-          <ul id="resumelist">
-
-            <li>
-              <div class="resumeitem">
-                <a href="http://blogs.wit.edu/accelerate/">Accelerate Innovation and Entrepreneurship Center</a> – Wentworth Institute of Technology
-                <br />
-                Space Engineer // September 2017 – Present
-                <ul>
-                  <li>
-                    Developed power tool safety standards for a makerspace.
-                  </li>
-                  <li>
-                  Categorized equipment and rearranged presentation space.
-                  </li>
-                </ul>
-              </div>
-            </li>
-
-            <li>
-              <div class="resumeitem">
-                <a href="https://www.idtech.com/">iD Tech Camps</a> – Harvard Law School
-                <br />
-                Instructor // June 2017 – August 2017
-                <ul>
-                  <li>
-                    Instructed 52 10-12 year olds on the fundamentals of java programming.
-                  </li>
-                  <li>
-                    Provided perspective of careers in STEM.
-                  </li>
-                  <li>
-                    Oversaw safety and wellbeing of over 100 students.
-                  </li>
-                </ul>
-              </div>
-            </li>
-
-            <li>
-              <div class="resumeitem">
-                <a href="https://www.customcomposite.com/">Custom Composites Technologies, Inc.</a> Bath, Maine
-                <br />
-                Intern // April – June 2016
-                <ul>
-                  <li>
-                    Gained perspective into the professional engineering world
-                  </li>
-                  <li>
-                    provided support in the process of manufacturing a large-scale carbon fiber molds from provided models.
-                  </li>
-                </ul>
-              </div>
-            </li>
-
-            <li>
-              <div class="resumeitem">
-                <a href="http://arttecsolar.com/">Art Tec Solar</a> – Woolwich, Maine
-                <br />
-                Electronics Assembler // July 2015 – February 2016
-                <ul>
-                  <li>
-                    Was responsible for solder and assembly of four electronic devices
-                  </li>
-                  <li>
-                  Quality assurance, product and component inventory management.
-                  </li>
-                </ul>
-              </div>
-            </li>
-
-          </ul>
-        </div>
+      </div>
     </div>
   </body>
 </html>
