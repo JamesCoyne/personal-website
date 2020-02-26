@@ -1,0 +1,25 @@
+$bgColor: blue;
+$foregroundColor: #9BEFBE;
+$textColor: white;
+
+@font-face {
+  font-family: 'Romans';
+  src: local('Romans'), url(../../fonts/romans.ttf) format('truetype');
+}
+
+h2 {
+  color: $textColor;
+  font-family: Romans
+}
+
+a{
+    float: left;
+    margin-right: 30px;
+}
+
+.navbar {
+    background-color: $bgColor;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+}

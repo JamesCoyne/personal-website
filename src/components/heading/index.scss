@@ -1,0 +1,20 @@
+$textColor: white;
+
+@font-face {
+    font-family: 'Circular';
+    src: local('Circular'), url(../../fonts/circular.otf) format('truetype');
+  }
+
+h1{
+    font-family: Circular;
+    color: $textColor;
+    font-size: 120px;
+    padding-top: 0px;
+    margin-top: 0px;
+    overflow: hidden;
+}
+
+div{
+    padding-top: 0px;
+    margin-top: 0px;
+}
