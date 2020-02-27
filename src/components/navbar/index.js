@@ -16,9 +16,7 @@ function NavBar(props) {
                     offset={-70}
                     duration={500}
                 >
-                    <h2>
-                        JAME COYNE
-                    </h2>
+                    <h3 class="navHeading">JAME COYNE</h3>
                 </Link>
                 <Link
                     activeClass="active"
@@ -28,9 +26,7 @@ function NavBar(props) {
                     offset={-70}
                     duration={500}
                 >
-                    <h2>
-                        ABOUT
-                    </h2>
+                    <h3 class="navHeading">ABOUT</h3>
                 </Link>
                 <Link
                 activeClass="active"
@@ -40,9 +36,7 @@ function NavBar(props) {
                 offset={-70}
                 duration={500}
                 >
-                    <h2>
-                        WORK
-                    </h2>
+                    <h3 class="navHeading">WORK</h3>
                 </Link>
                 <Link
                 activeClass="active"
@@ -52,9 +46,7 @@ function NavBar(props) {
                 offset={-70}
                 duration={500}
                 >
-                <h2>
-                        CONTACT
-                    </h2>
+                <h3 class="navHeading">CONTACT</h3>
                 </Link>
             </div>
     );

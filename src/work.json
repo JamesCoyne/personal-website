@@ -1,25 +1,25 @@
 [
     {
         "title": "Illuminus Boston: Digital Playground",
-        "Client": "Black Math",
+        "client": "Black Math",
         "tagline": "We projection mapped on the building!",
-        "date":"",
+        "date":"july-2019",
         "mainPhoto": "",
         "tech":""
     },
     {
         "title": "Kineticards",
-        "Client": "Black Math",
+        "client": "Black Math",
         "tagline": "Augmented reality greeting cards app",
-        "date":"",
+        "date":"july-2019",
         "mainPhoto": "",
         "tech":""
     },
     {
         "title": "MFA Gender Bending Fashion",
-        "Client": "Black Math",
+        "client": "Black Math",
         "tagline": "Large scale long term projection mapping installation",
-        "date":"",
+        "date":"july-2019",
         "mainPhoto": "",
         "tech":""
     }
