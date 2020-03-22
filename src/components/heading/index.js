@@ -7,15 +7,15 @@ function Heading(props) {
 
     const longName = (() => {
         var x = props.text
-        for(var i = 0; i < 10; i++){
+        for(var i = 0; i < 20; i++){
             x += props.text
         }
         return x
     })
 
     return(
-    <div>
-        <h1>{longName()}</h1>
+    <div class="marquee">
+        <h1 class="text">{longName()}</h1>
     </div>
     );
 }

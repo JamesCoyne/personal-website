@@ -1,24 +1,30 @@
-$bgColor: blue;
-$foregroundColor: #9BEFBE;
-$textColor: white;
+@import '../../_colors.scss';
 
-@font-face {
-  font-family: 'Romans';
-  src: local('Romans'), url(../../fonts/romans.ttf) format('truetype');
+Link{
+  background-color: yellow;
 }
 
 .navHeading {
   color: $textColor;
-  font-family: Romans
+  font-family: Romans;
+  font-size: 30px;
+  padding:  0px 15px 0px 15px;
+  margin: 0px 0px !important;
+  border: 1px solid red;
+}
+
+.navHeading:hover{
+  background-color: $secondaryColor;
 }
 
 a{
     float: left;
-    margin-right: 30px;
+    padding: 0px;
+    margin: 0px;
 }
 
 .navbar {
-    background-color: $bgColor;
+    background-color: $highlightColor;
     position: fixed;
     z-index: 999;
     width: 100%;

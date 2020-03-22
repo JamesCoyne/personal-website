@@ -1,5 +1,87 @@
-.projectRow{
-    border: 1px solid white;
-    padding: 0px 0px;
-    margin: 0px 0px;
+@import '../../_colors.scss';
+
+.container {
+  display: flex;
+  
+  padding-bottom: 5vh;
+}
+
+@media (min-width: 768px) {
+  .container {
+    flex-direction: column;
+    display: grid;
+    grid-template-columns: 0px auto 30%;
+  }
+}
+
+img{
+  border: 1px solid $textColor;
+  width: 200px;
+  //   height: 300px;
+  // position: absolute;
+  // left: 700px;
+  // right: 800px;
+
+  // top: 0px;
+  overflow-y: auto;
+  z-index: 980;
+}
+
+.left {
+  flex: 1;
+  text-align: left;
+  border: 1px solid $textColor;
+  margin-top: 0px;
+  // padding: 5%;
+  padding-left: 5%;
+  padding-bottom: 5%;
+}
+
+.right {
+  flex: 1;
+  overflow-y: auto;
+  float: left;
+  text-align: right
+}
+
+.title{
+  font-family: Source-Code-Bold;
+  font-size: 40px;
+  color: $textColor;
+  border-bottom: 1px solid $textColor;
+}
+
+.client{
+  font-family: Source-Code-Regular;
+  font-size: 30px;
+  color: $textColor;
+}
+
+.tagline{
+  font-family: Source-Code-Regular;
+  // font-size: 20px;
+  padding: 5vh 0vh 5vh 0vh;
+}
+
+.tech{
+  font-family: Source-Code-ExtraLight;
+  font-size: 14px;
+}
+
+.date{
+  font-family: Source-Code-Light;
+  color: $textColor;
+  font-size: 20px;
+}
+
+button{
+  font-family: Source-Code-SemiBold;
+  color: $textColor;
+  border: 1px solid $textColor;
+  padding: 5px 10px 5px 10px;
+  background-color:  transparent;
+}
+
+p{
+  font-size: 16px;
 }

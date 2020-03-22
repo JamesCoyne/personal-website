@@ -8,16 +8,21 @@ function NavBar(props) {
 
     return(
             <div class="navbar">
-                <Link
+                
+                <div class="navHeading"> 
+                    <Link
                     activeClass="active"
                     to="splash"
                     spy={true}
                     smooth={true}
                     offset={-70}
                     duration={500}
-                >
-                    <h3 class="navHeading">JAME COYNE</h3>
-                </Link>
+                    class="navHeading"
+                    >
+                        JAME COYNE
+                    </Link>
+                </div>
+                {/* </Link> */}
                 <Link
                     activeClass="active"
                     to="about"
@@ -25,8 +30,9 @@ function NavBar(props) {
                     smooth={true}
                     offset={-70}
                     duration={500}
+                    class="navHeading"
                 >
-                    <h3 class="navHeading">ABOUT</h3>
+                    <div class="navHeading">ABOUT</div>
                 </Link>
                 <Link
                 activeClass="active"
@@ -35,8 +41,9 @@ function NavBar(props) {
                 smooth={true}
                 offset={-70}
                 duration={500}
+                class="navHeading"
                 >
-                    <h3 class="navHeading">WORK</h3>
+                    <div class="navHeading">WORK</div>
                 </Link>
                 <Link
                 activeClass="active"
@@ -45,8 +52,9 @@ function NavBar(props) {
                 smooth={true}
                 offset={-70}
                 duration={500}
+                class="navHeading"
                 >
-                <h3 class="navHeading">CONTACT</h3>
+                <div class="navHeading">CONTACT</div>
                 </Link>
             </div>
     );

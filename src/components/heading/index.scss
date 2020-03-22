@@ -1,20 +1,42 @@
-$textColor: white;
+@import '../../_colors.scss';
 
-@font-face {
-    font-family: 'Circular';
-    src: local('Circular'), url(../../fonts/circular.otf) format('truetype');
+@keyframes slide {
+    from { left:0%; transform: translate(0, 0); }
+    to { left: -50%; transform: translate(0%, 0); }
+}
+@-webkit-keyframes slide {
+    from { left:0%; transform: translate(0, 0); }
+    to { left: -50%; transform: translate(0%, 0); }
+}
+  
+  .marquee {
+    background-color: $secondaryColor;
+    color: $textColor;
+    width:100%;
+    height:45px;
+    overflow:hidden;
+    position:relative;
+    margin-bottom: 5%;
   }
+  
+  .text {
+    position:absolute;
+    top:0;
+    white-space: nowrap;
+    font-size:45px;
 
-h1{
     font-family: Circular;
     color: $textColor;
-    font-size: 70px;
     padding-top: 0px;
     margin-top: 0px;
     overflow: hidden;
-}
 
-div{
-    padding-top: 0px;
-    margin-top: 0px;
-}
+    animation-name: slide;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    -webkit-animation-name: slide;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-timing-function:linear;
+    -webkit-animation-iteration-count: infinite;
+  }

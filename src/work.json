@@ -5,7 +5,7 @@
         "tagline": "We projection mapped on the building!",
         "date":"july-2019",
         "mainPhoto": "",
-        "tech":""
+        "tech": "Javascript, Node.js, React,js"
     },
     {
         "title": "Kineticards",
@@ -13,7 +13,7 @@
         "tagline": "Augmented reality greeting cards app",
         "date":"july-2019",
         "mainPhoto": "",
-        "tech":""
+        "tech": "Javascript, Node.js, React,js"
     },
     {
         "title": "MFA Gender Bending Fashion",
@@ -21,6 +21,6 @@
         "tagline": "Large scale long term projection mapping installation",
         "date":"july-2019",
         "mainPhoto": "",
-        "tech":""
+        "tech": "Javascript, Node.js, React,js"
     }
 ]

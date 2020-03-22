@@ -1,4 +1,10 @@
+@import '../../_colors.scss';
+
 .contactBody {
-    background-color: blue;
-    height: 60vh;
+    background-color: $highlightColor;
+    // height: 60vh;
+}
+
+.contactText{
+    padding: 15vh 15vh 15vh 15vh;
 }
