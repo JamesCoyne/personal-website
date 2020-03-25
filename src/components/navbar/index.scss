@@ -1,32 +1,29 @@
 @import '../../_colors.scss';
 
-Link{
-  background-color: yellow;
-}
-
-.navHeading {
+.navItem {
   color: $textColor;
   font-family: Romans;
   font-size: 30px;
   padding:  0px 15px 0px 15px;
-  margin: 0px 0px !important;
-  border: 1px solid red;
+  margin: 0px 0px 0px 0px !important;
+  float: left;
 }
 
-.navHeading:hover{
+.navItem:hover{
   background-color: $secondaryColor;
-}
-
-a{
-    float: left;
-    padding: 0px;
-    margin: 0px;
+  color: $textColor;
+  text-decoration: none;
 }
 
 .navbar {
+    display: block;
     background-color: $highlightColor;
     position: fixed;
+    overflow: none;
     z-index: 999;
+    // width: ;
     width: 100%;
     border-radius: 0%;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
 }
