@@ -11,7 +11,7 @@ function NavItem(props) {
             smooth={true}
             offset={-70}
             duration={500}
-            class="navItem">
+            className="navItem">
             {props.name}
         </Link>
     )
@@ -19,7 +19,7 @@ function NavItem(props) {
 
 function NavBar(props) {
     return(
-        <div class="navbar">
+        <div className="navbar">
             <NavItem name="JAME COYNE" to="splash"/>
             <NavItem name="ABOUT" to="about"/>
             <NavItem name="WORK" to="work"/>

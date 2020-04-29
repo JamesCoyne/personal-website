@@ -2,25 +2,205 @@
     {
         "title": "Illuminus Boston: Digital Playground",
         "client": "Black Math",
-        "tagline": "We projection mapped on the building!",
-        "date":"july-2019",
+        "tagline": "Transforming a office downtown boston building into a psychedelic arcade machine with projection mapping.",
+        "date":"JULY-2018",
         "mainPhoto": "",
-        "tech": "Javascript, Node.js, React,js"
+        "body": [
+            {
+                "type": "paragraph",
+                "content": "Illuminus Boston is a massive 3 day outdoor projection mapping and light/sound art festival in Downtown Boston. In 2018 Black Math was asked to participate. I helped concept, design, develop, and install an interactive projection mapping installation to transform the massive facade of 375 washington street into a massive psychedelic arcade game. We started by playing with the idea of controlling gravity, and our goal was to develop an interactive experience that could be inviting to passerby, but have enough depth to keep its users engaged for a long period of time. To make the experience more immersive, we were able to use the collisions of the balls as a synthesizer, meaning that the piece generated an ever evolving soundscape based on the input from it’s users. Our awesome creative director Jermey built these cool retro arcade machine controllers for people to use to control , and I wired them up with arduinos and wrote some code to send their input to our server. From a technical standpoint, the project had a lot of moving parts but Black Math and I pulled it off in just six weeks! All in all, the project was seen by roughly 10,000 people over the three nights it was installed."
+            },
+            {
+                "type": "video",
+                "content": {
+                    "src": "/work/illuminus/illuminus.mp4",
+                    "subtitle": ""
+                }
+            }
+        ],
+        "tags": ["code", "art", "black math", "javascript", "node.js", "react.js"]
+    },
+    {
+        "title": "Scribble Party",
+        "client": "Personal",
+        "tagline": "Connecting strangers through doodling!",
+        "date":"APRIL-2020",
+        "body": [
+            {
+                "type": "paragraph",
+                "content": "In the wake of covid-19, I started brainstorming ways to foster a feeling of connectedness and collaboration among people in this dark time of social distancing. After exploring a few different concepts, I started developing scribble.party. It’s a collaborative and real-time drawing drawing program, users can doodle for others to find later, and see others doodling live. I used some cool backend libraries, including socket.io to make it happen. You can check it out at the link below:"
+            },
+            {
+                "type": "link",
+                "content": {
+                    "text": "scribble.party",
+                    "href": "http://scribble.party"
+                }
+            }
+        ],
+        "tags": ["code", "javascript", "node.js", "react.js", "socket.io"]
+    },
+    {
+        "title": "Path2Finding: path finding visualizer ",
+        "client": "university",
+        "tagline": "visualizing path finding algorithms using react and three.js!",
+        "date": "APRIL-2020",
+        "body":[
+            {
+                "type": "paragraph",
+                "content": "For my spring of senior year software engineering class project my team decided to make a path finding algorithm visualizer in the web. The project trained me to work in a team setting with other programmers, use version control, and designing and developing clean, efficient, and scalable code. We also used Three.js with React three fiber, meaning we were able to build this cool Minecraft themed maze in 3D while still using React.js components! You can also check out the project with the links below:"
+            },
+            {
+                "type": "link",
+                "content": {
+                    "text": "production build",
+                    "href": "https://path2finding.com/"
+                }
+            }
+        ],
+        "tags": ["code", "react.js", "three.js", "javascript"]
+    },
+    {
+        "title": "Net Present Value Calculator ",
+        "client": "Black Math",
+        "tagline": "planning the UI/UX for a financial education tool",
+        "date": "NOVEMBER-2019",
+        "body":[
+            {
+                "type": "paragraph",
+                "content": "While I was at Black Math, we were asked by a math professor at a major ivy league university to design a interactive visualization of the economics concept of net present value and internal rate of return for his economics students! I iterated over designs with the client and came up with this web based tool."
+            },
+            {
+                "type": "video",
+                "content": {
+                    "src": "/work/irr/walkthrough.mp4",
+                    "subtitle": ""
+                }
+            }
+        ],
+        "tags": ["ui/ux", "design"]
     },
     {
         "title": "Kineticards",
         "client": "Black Math",
         "tagline": "Augmented reality greeting cards app",
-        "date":"july-2019",
-        "mainPhoto": "",
-        "tech": "Javascript, Node.js, React,js"
+        "date":"JANUARY-2019",
+        "body": [
+            {
+                "type": "paragraph",
+                "content": "Kineticards is an augmented reality greeting card app I had the privilege of working on - I took over the codebase from a previous developer and was responsible for bug fixes and maintenance as well as new features, and UI!"
+            },
+            {
+                "type": "video",
+                "content":{
+                    "src": "/work/kineticards/kineticards.mp4"
+                }
+            }
+        ],
+        "tags": ["code","javascript","node.js","react.js"]
+    },
+    {
+        "type": "code",
+        "title": "Kineticards: Blendfest",
+        "client": "Black Math",
+        "tagline": "Creating an augmented reality event schedule for a 1000 person conference",
+        "date":"SEPTEMBER-2019",
+        "body": [
+            {
+            "type": "paragraph",
+            "content": "We also worked with Blend Fest, a popular motion graphics conference to use the app as a way of seeing the event’s schedule in AR! Event attendees could scan their badges and see a short reel of the next speaker. I designed and developed both the frontend interaction design as well as the backend to manage the event’s schedule."
+            }
+        ],
+        "tags": ["code","javascript","node.js","react.js"]
     },
     {
         "title": "MFA Gender Bending Fashion",
         "client": "Black Math",
         "tagline": "Large scale long term projection mapping installation",
-        "date":"july-2019",
+        "date":"JULY-2019",
         "mainPhoto": "",
-        "tech": "Javascript, Node.js, React,js"
+        "body": [
+            {
+            "type": "paragraph",
+            "content": "Illuminus Boston is a 3 day outdoor projection mapping and light/sound art festival in Downtown Boston. In 2018 Black Math was asked to participate. I helped concept, design, develop, and install a interactive projection mapping installation that turned the face of an office building and some custom controllers we made into a massive psychedelic arcade. The project had a lot of moving parts, including client/server communication, MIDI and sound, realtime graphics, and physics simulation, and black math and I pulled it off in just six weeks!"
+            }
+        ],
+        "tags": ["design", "code", "projection mapping", "physical installation", "video", "black math"]
+    },
+    {
+        "type": "both",
+        "title": "Crayon Box",
+        "client": "freelance",
+        "tagline": "Large scale long term projection mapping installation",
+        "date":"April-2018",
+        "mainPhoto": "",
+        "body": [
+            {
+            "type": "paragraph",
+            "content": "Crayon Box, an after school program promoting music literacy and improvisation for elementary schoolers asked me to design a system to allow their students to visualize improvised jazz music. I built a system that allowed students to draw with the music, and see their drawings play and interact with the music as it evolves."
+            }
+        ],
+        "tags": ["code", "design", "freelance", "Java", "mobile", "networking", "physical installation", "projection mapping"]
+    },
+    {
+        "type": "art",
+        "title": "Nnux",
+        "client": "freelance",
+        "tagline": "music videos, live visuals, projection mapping, and branding",
+        "date":"NOVEMBER-2017",
+        "mainPhoto": "",
+        "body": [
+            {
+            "type": "paragraph",
+            "content": "I did live visuals add more later"
+            }
+        ],
+        "tech": "Javascript, Node.js, React,js",
+        "tags": ["art"]
+    },
+    {
+        "type": "code",
+        "title": "Parallel Computing Fire Spread",
+        "client": "university",
+        "tagline": "simulating a minecraft style fire spreading animation on my university's distributed supercomputer using C",
+        "date":"AUGUST-2019",
+        "body": [
+            {
+            "type": "paragraph",
+            "content": ""
+            }
+        ],
+        "tech": "C distributed computing",
+        "tags": ["code"]
+    },
+    {
+        "type": "both",
+        "title": "Project Bid Management System",
+        "client": "Black Math",
+        "tagline": "I made this thing that keeps black math's bids all nice and organized! They use it and it saves them time and money hopefully!",
+        "date":"December-2019",
+        "body": [
+            {
+            "type": "paragraph",
+            "content": ""
+            }
+        ],
+        "tech": "Javascript, Node.js, React,js, Google API",
+        "tags": ["code"]
+    },
+    {
+        "type": "both",
+        "title": "A Processing Sketch a Day",
+        "client": "personal",
+        "tagline": "I made a processing sketch every day for awhile. it pushed my understanding of processing",
+        "date":"2017",
+        "body": [
+            {
+            "type": "paragraph",
+            "content": ""
+            }
+        ],
+        "tech": "Processing.js",
+        "tags": ["art"]
     }
 ]

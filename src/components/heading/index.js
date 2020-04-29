@@ -1,5 +1,6 @@
 import React, { useRef, useState } from 'react'
 import { render } from 'react-three-fiber';
+import TrackVisibility from 'react-on-screen';
 import '../../fonts/circular.otf'
 import './index.scss';
 
@@ -14,9 +15,16 @@ function Heading(props) {
     })
 
     return(
-    <div class="marquee">
-        <h1 class="text">{longName()}</h1>
-    </div>
+        // <TrackVisibility>
+        //     {({ isVisible }) => 
+        //     isVisible && 
+            <div className="headingBackground">
+                <div className="box"></div>
+                <h1 className="text">{longName()}</h1>
+            </div>
+        //     }
+        // </TrackVisibility>  
+   
     );
 }
 

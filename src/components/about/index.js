@@ -6,13 +6,18 @@ import './index.scss';
 function About(props) {
     return(
         <div>
-            <Heading text="About"/>
-            <div class="row">
-                    <div class="colLeft">
+            <Heading text="About "/>
+            <div className="row">
+                    <div className="colLeft">
+                    <div className="frame f4" />
+                        <div className="frame f3" />
+                        <div className="frame f2" />
                         <img src= {process.env.PUBLIC_URL + "me.jpg"} id="portrait"/>
                     </div>
-                <div class="colRight">
-                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc euismod purus orci, ac tristique nisl vestibulum facilisis. Sed in ex facilisis, malesuada augue at, bibendum lacus. In imperdiet libero non maximus ornare. Etiam est libero, vestibulum sed ultrices eu, placerat sed risus. Mauris maximus dolor at neque euismod semper. Cras eget ligula eget dui mattis vehicula ut vitae risus.</p>
+                <div className="colRight">
+                    <p>
+                    Hey! I’m Jame Coyne. I have experience working with creative studios and individuals, and I have experience with modern web development frameworks such as react, three, p5, bootstrap. I am able to meet your expectations for designing and developing beautiful and functional digital content on the web or elsewhere, and deliver and communicate in a timely manner. 
+                    </p>
                 </div>
             </div>
         </div>    
